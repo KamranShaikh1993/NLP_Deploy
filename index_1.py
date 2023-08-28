@@ -17,7 +17,7 @@ def predict_review(msg):
 
 
 st.write("# Sentiment Analysis ")
-message = st.text_area("Message")
+message = st.text_area("Message (eg:- Food was good/ Restaurent was Great)")
 
 if st.button("Predict"):
     result = predict_review(message)
