@@ -1,4 +1,4 @@
-import streamlit as st
+iment import streamlit as st
 
 
 import pickle
@@ -16,7 +16,7 @@ def predict_review(msg):
 
 
 
-st.write("# Hello World ")
+st.write("# Sentiment Analysis ")
 message = st.text_area("Message")
 
 if st.button("Predict"):
